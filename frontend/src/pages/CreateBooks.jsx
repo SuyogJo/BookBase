@@ -55,7 +55,7 @@ export default function CreateBooks() {
             <label className='text-xl mr-4 text-gray-500'>Published Year</label>
               <input
                 className='border-2 border-gray-500 px-4 w-full'
-                type='text'
+                type='number'
                 value={postData.publishYear}
                 onChange={(e) => setPostData({...postData, publishYear: e.target.value})}
               />
