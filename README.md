@@ -1,1 +1,4 @@
-# BookBase
+# README
+
+/api/bookings/
+/api/registration/
